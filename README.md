@@ -23,7 +23,7 @@
 - Download this repository.
 or clone the repo :
 ```
-https://github.com/irsyadulibad/mazer-codeigniter.git
+git clone https://github.com/irsyadulibad/mazer-codeigniter.git
 ```
 - Install composer packages
 ```
