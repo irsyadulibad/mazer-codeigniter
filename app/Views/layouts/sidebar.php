@@ -1,6 +1,8 @@
 <?php
 $uri = service('uri')->getSegments();
 $uri1 = $uri[1] ?? 'index';
+$uri2 = $uri[2] ?? '';
+$uri3 = $uri[3] ?? '';
 ?>
 
 <div class="sidebar-wrapper active">
@@ -30,6 +32,59 @@ $uri1 = $uri[1] ?? 'index';
                     <i class="bi bi-grid-fill"></i>
                     <span>Dashboard</span>
                 </a>
+            </li>
+            <li class="sidebar-item has-sub <?= ($uri1 == 'component') ? 'active' : '' ?>">
+                <a href="/mazer" class="sidebar-link">
+                    <i class="bi bi-stack"></i>
+                    <span>Components</span>
+                </a>
+                <ul class="submenu <?= ($uri1 == 'component') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= ($uri2 == 'alert') ? 'active' : '' ?>">
+                        <a href="/mazer/component/alert">Alert</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'badge') ? 'active' : '' ?>">
+                        <a href="/mazer/component/badge">Badge</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'breadcrumb') ? 'active' : '' ?>">
+                        <a href="/mazer/component/breadcrumb">Breadcrumb</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'button') ? 'active' : '' ?>">
+                        <a href="/mazer/component/button">Button</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'card') ? 'active' : '' ?>">
+                        <a href="/mazer/component/card">Card</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'carousel') ? 'active' : '' ?>">
+                        <a href="/mazer/component/carousel">Carousel</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'collapse') ? 'active' : '' ?>">
+                        <a href="/mazer/component/collapse">Collapse</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'dropdown') ? 'active' : '' ?>">
+                        <a href="/mazer/component/dropdown">Dropdown</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'list_group') ? 'active' : '' ?>">
+                        <a href="/mazer/component/list_group">List Group</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'modal') ? 'active' : '' ?>">
+                        <a href="/mazer/component/modal">Modal</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'navs') ? 'active' : '' ?>">
+                        <a href="/mazer/component/navs">Navs</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'pagination') ? 'active' : '' ?>">
+                        <a href="/mazer/component/pagination">Pagination</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'progress') ? 'active' : '' ?>">
+                        <a href="/mazer/component/progress">Progress</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'spinner') ? 'active' : '' ?>">
+                        <a href="/mazer/component/spinner">Spinner</a>
+                    </li>
+                    <li class="submenu-item <?= ($uri2 == 'tooltip') ? 'active' : '' ?>">
+                        <a href="/mazer/component/tooltip">Tooltip</a>
+                    </li>
+                </ul>
             </li>
         </ul>
     </div>
