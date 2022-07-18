@@ -24,7 +24,10 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\Support\\": "tests/_support"
-        }
+        },
+        "files": [
+            "./app/helpers.php"
+        ]
     },
     "scripts": {
         "test": "phpunit"

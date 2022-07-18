@@ -1,10 +1,3 @@
-<?php
-$uri = service('uri')->getSegments();
-$uri1 = $uri[1] ?? 'index';
-$uri2 = $uri[2] ?? '';
-$uri3 = $uri[3] ?? '';
-?>
-
 <div class="sidebar-wrapper active">
     <div class="sidebar-header position-relative">
         <div class="d-flex justify-content-between align-items-center">
@@ -27,62 +20,85 @@ $uri3 = $uri[3] ?? '';
     <div class="sidebar-menu">
         <ul class="menu">
             <li class="sidebar-title">Menu</li>
-            <li class="sidebar-item <?= ($uri1 == 'index') ? 'active' : '' ?>">
+            <li class="sidebar-item <?= active('mazer/index') ?>">
                 <a href="/mazer" class="sidebar-link">
                     <i class="bi bi-grid-fill"></i>
                     <span>Dashboard</span>
                 </a>
             </li>
-            <li class="sidebar-item has-sub <?= ($uri1 == 'component') ? 'active' : '' ?>">
-                <a href="/mazer" class="sidebar-link">
+            <li class="sidebar-item has-sub <?= active('/component') ?>">
+                <a href="#" class="sidebar-link">
                     <i class="bi bi-stack"></i>
                     <span>Components</span>
                 </a>
-                <ul class="submenu <?= ($uri1 == 'component') ? 'active' : '' ?>">
-                    <li class="submenu-item <?= ($uri2 == 'alert') ? 'active' : '' ?>">
+                <ul class="submenu <?= active('/component') ?>">
+                    <li class="submenu-item <?= active('/alert') ?>">
                         <a href="/mazer/component/alert">Alert</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'badge') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/badge') ?>">
                         <a href="/mazer/component/badge">Badge</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'breadcrumb') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/breadcrumb') ?>">
                         <a href="/mazer/component/breadcrumb">Breadcrumb</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'button') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/button') ?>">
                         <a href="/mazer/component/button">Button</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'card') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/card') ?>">
                         <a href="/mazer/component/card">Card</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'carousel') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/carousel') ?>">
                         <a href="/mazer/component/carousel">Carousel</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'collapse') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/collapse') ?>">
                         <a href="/mazer/component/collapse">Collapse</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'dropdown') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/dropdown') ?>">
                         <a href="/mazer/component/dropdown">Dropdown</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'list_group') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/list_group') ?>">
                         <a href="/mazer/component/list_group">List Group</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'modal') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/modal') ?>">
                         <a href="/mazer/component/modal">Modal</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'navs') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/navs') ?>">
                         <a href="/mazer/component/navs">Navs</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'pagination') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/pagination') ?>">
                         <a href="/mazer/component/pagination">Pagination</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'progress') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/progress') ?>">
                         <a href="/mazer/component/progress">Progress</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'spinner') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/spinner') ?>">
                         <a href="/mazer/component/spinner">Spinner</a>
                     </li>
-                    <li class="submenu-item <?= ($uri2 == 'tooltip') ? 'active' : '' ?>">
+                    <li class="submenu-item <?= active('/tooltip') ?>">
                         <a href="/mazer/component/tooltip">Tooltip</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar-item has-sub <?= active('extraComponent') ?>">
+                <a href="#" class="sidebar-link">
+                    <i class="bi-collection-fill"></i>
+                    <span>Extra Components</span>
+                </a>
+                <ul class="submenu <?= active('extraComponent') ?>">
+                    <li class="submenu-item <?= active('/avatar') ?>">
+                        <a href="/mazer/extraComponent/avatar">Avatar</a>
+                    </li>
+                    <li class="submenu-item <?= active('/sweetalert') ?>">
+                        <a href="/mazer/extraComponent/sweetalert">Sweet Alert</a>
+                    </li>
+                    <li class="submenu-item <?= active('/toastify') ?>">
+                        <a href="/mazer/extraComponent/toastify">Toastify</a>
+                    </li>
+                    <li class="submenu-item <?= active('/rating') ?>">
+                        <a href="/mazer/extraComponent/rating">Rating</a>
+                    </li>
+                    <li class="submenu-item <?= active('/divider') ?>">
+                        <a href="/mazer/extraComponent/divider">Divider</a>
                     </li>
                 </ul>
             </li>
