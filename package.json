@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier .prettierrc --check --write"
+    "format": "prettier .prettierrc --check --write",
+    "build": "mix build"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,15 @@
   },
   "homepage": "https://github.com/irsyadulibad/mazer-codeigniter#readme",
   "devDependencies": {
-    "prettier": "2.8.3"
+    "@fontsource/nunito": "^4.5.12",
+    "bootstrap": "5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "feather-icons": "^4.29.0",
+    "laravel-mix": "^6.0.49",
+    "perfect-scrollbar": "^1.5.5",
+    "prettier": "2.8.3",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^12.6.0"
   }
 }
