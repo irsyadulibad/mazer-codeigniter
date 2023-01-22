@@ -1,0 +1,27 @@
+{
+  "name": "mazer-codeigniter",
+  "version": "1.0.0",
+  "description": "## What is CodeIgniter?",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier .prettierrc --check --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irsyadulibad/mazer-codeigniter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irsyadulibad/mazer-codeigniter/issues"
+  },
+  "homepage": "https://github.com/irsyadulibad/mazer-codeigniter#readme",
+  "devDependencies": {
+    "prettier": "2.8.3"
+  }
+}
