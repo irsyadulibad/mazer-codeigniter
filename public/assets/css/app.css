@@ -4,7 +4,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 300;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-ext-300-normal.woff2?bdea52a97975fe3b5a913b4103780c1b) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-300-normal.woff?8efe08cdd612b2a381a0742575ac14ff) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-ext-300-normal.woff2?bdea52a97975fe3b5a913b4103780c1b) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-300-normal.woff?8efe08cdd612b2a381a0742575ac14ff) format('woff');
   unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
 }
 /* nunito-cyrillic-300-normal*/
@@ -13,7 +13,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 300;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-300-normal.woff2?3a9e29b7769d363c785511d5915c2ce3) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-300-normal.woff?8efe08cdd612b2a381a0742575ac14ff) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-300-normal.woff2?3a9e29b7769d363c785511d5915c2ce3) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-300-normal.woff?8efe08cdd612b2a381a0742575ac14ff) format('woff');
   unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
 }
 /* nunito-vietnamese-300-normal*/
@@ -22,7 +22,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 300;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-vietnamese-300-normal.woff2?dfa31d492c43807b27c29c50bdc1688b) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-300-normal.woff?8efe08cdd612b2a381a0742575ac14ff) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-vietnamese-300-normal.woff2?dfa31d492c43807b27c29c50bdc1688b) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-300-normal.woff?8efe08cdd612b2a381a0742575ac14ff) format('woff');
   unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
 }
 /* nunito-latin-ext-300-normal*/
@@ -31,7 +31,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 300;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-latin-ext-300-normal.woff2?efc4195dbb895ec1985c7be44326bd63) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-300-normal.woff?8efe08cdd612b2a381a0742575ac14ff) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-latin-ext-300-normal.woff2?efc4195dbb895ec1985c7be44326bd63) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-300-normal.woff?8efe08cdd612b2a381a0742575ac14ff) format('woff');
   unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
 }
 /* nunito-latin-300-normal*/
@@ -40,7 +40,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 300;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-latin-300-normal.woff2?b910844d7a322238ec945d43a31a7050) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-300-normal.woff?8efe08cdd612b2a381a0742575ac14ff) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-latin-300-normal.woff2?b910844d7a322238ec945d43a31a7050) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-300-normal.woff?8efe08cdd612b2a381a0742575ac14ff) format('woff');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -50,7 +50,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2?f21ac09511c6fa4f94633549c5716665) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-400-normal.woff?0c07f750f73ac5437580c0d0dff431ec) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-ext-400-normal.woff2?f21ac09511c6fa4f94633549c5716665) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-400-normal.woff?0c07f750f73ac5437580c0d0dff431ec) format('woff');
   unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
 }
 /* nunito-cyrillic-400-normal*/
@@ -59,7 +59,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-400-normal.woff2?166e8e87ae0b6f3deed301a84e1af103) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-400-normal.woff?0c07f750f73ac5437580c0d0dff431ec) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-400-normal.woff2?166e8e87ae0b6f3deed301a84e1af103) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-400-normal.woff?0c07f750f73ac5437580c0d0dff431ec) format('woff');
   unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
 }
 /* nunito-vietnamese-400-normal*/
@@ -68,7 +68,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-vietnamese-400-normal.woff2?6a8bc7acd205391fb71a9326938d6b63) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-400-normal.woff?0c07f750f73ac5437580c0d0dff431ec) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-vietnamese-400-normal.woff2?6a8bc7acd205391fb71a9326938d6b63) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-400-normal.woff?0c07f750f73ac5437580c0d0dff431ec) format('woff');
   unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
 }
 /* nunito-latin-ext-400-normal*/
@@ -77,7 +77,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-latin-ext-400-normal.woff2?e8049e65c49ce687cff1bf71dfa6a5d0) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-400-normal.woff?0c07f750f73ac5437580c0d0dff431ec) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-latin-ext-400-normal.woff2?e8049e65c49ce687cff1bf71dfa6a5d0) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-400-normal.woff?0c07f750f73ac5437580c0d0dff431ec) format('woff');
   unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
 }
 /* nunito-latin-400-normal*/
@@ -86,7 +86,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-latin-400-normal.woff2?b8644b6e04ecda1cf98bbb37f17d0ef3) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-400-normal.woff?0c07f750f73ac5437580c0d0dff431ec) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-latin-400-normal.woff2?b8644b6e04ecda1cf98bbb37f17d0ef3) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-400-normal.woff?0c07f750f73ac5437580c0d0dff431ec) format('woff');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -96,7 +96,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 600;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-ext-600-normal.woff2?a966a96b5f86c1790d611dc2a071f533) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-600-normal.woff?527eb32071d73ffd082967f0f2469086) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-ext-600-normal.woff2?a966a96b5f86c1790d611dc2a071f533) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-600-normal.woff?527eb32071d73ffd082967f0f2469086) format('woff');
   unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
 }
 /* nunito-cyrillic-600-normal*/
@@ -105,7 +105,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 600;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-600-normal.woff2?0b4aff50b25779a95353f46ff29b75d7) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-600-normal.woff?527eb32071d73ffd082967f0f2469086) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-600-normal.woff2?0b4aff50b25779a95353f46ff29b75d7) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-600-normal.woff?527eb32071d73ffd082967f0f2469086) format('woff');
   unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
 }
 /* nunito-vietnamese-600-normal*/
@@ -114,7 +114,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 600;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-vietnamese-600-normal.woff2?73867bf9b4b837f997c48e82ec28616a) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-600-normal.woff?527eb32071d73ffd082967f0f2469086) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-vietnamese-600-normal.woff2?73867bf9b4b837f997c48e82ec28616a) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-600-normal.woff?527eb32071d73ffd082967f0f2469086) format('woff');
   unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
 }
 /* nunito-latin-ext-600-normal*/
@@ -123,7 +123,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 600;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-latin-ext-600-normal.woff2?9704ee910d46b3c17e69dce6da1b19a3) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-600-normal.woff?527eb32071d73ffd082967f0f2469086) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-latin-ext-600-normal.woff2?9704ee910d46b3c17e69dce6da1b19a3) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-600-normal.woff?527eb32071d73ffd082967f0f2469086) format('woff');
   unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
 }
 /* nunito-latin-600-normal*/
@@ -132,7 +132,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 600;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-latin-600-normal.woff2?2b48b7fe12163661f95ab32aebeaed01) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-600-normal.woff?527eb32071d73ffd082967f0f2469086) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-latin-600-normal.woff2?2b48b7fe12163661f95ab32aebeaed01) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-600-normal.woff?527eb32071d73ffd082967f0f2469086) format('woff');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -142,7 +142,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-ext-700-normal.woff2?6f62b8277e1be35439a6f146e35525c3) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-700-normal.woff?91e2d8503d40ed436968c6536323be91) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-ext-700-normal.woff2?6f62b8277e1be35439a6f146e35525c3) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-700-normal.woff?91e2d8503d40ed436968c6536323be91) format('woff');
   unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
 }
 /* nunito-cyrillic-700-normal*/
@@ -151,7 +151,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-700-normal.woff2?b36f165a6079a29ea02b692f4fd610b7) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-700-normal.woff?91e2d8503d40ed436968c6536323be91) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-700-normal.woff2?b36f165a6079a29ea02b692f4fd610b7) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-700-normal.woff?91e2d8503d40ed436968c6536323be91) format('woff');
   unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
 }
 /* nunito-vietnamese-700-normal*/
@@ -160,7 +160,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-vietnamese-700-normal.woff2?8862ea6993677ed0a88f2f310121476b) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-700-normal.woff?91e2d8503d40ed436968c6536323be91) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-vietnamese-700-normal.woff2?8862ea6993677ed0a88f2f310121476b) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-700-normal.woff?91e2d8503d40ed436968c6536323be91) format('woff');
   unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
 }
 /* nunito-latin-ext-700-normal*/
@@ -169,7 +169,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-latin-ext-700-normal.woff2?4bcdf80378aecff12c8d67cfc4164cf6) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-700-normal.woff?91e2d8503d40ed436968c6536323be91) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-latin-ext-700-normal.woff2?4bcdf80378aecff12c8d67cfc4164cf6) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-700-normal.woff?91e2d8503d40ed436968c6536323be91) format('woff');
   unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
 }
 /* nunito-latin-700-normal*/
@@ -178,7 +178,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-latin-700-normal.woff2?adfd120897fcd366e78e43a700ca8bfc) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-700-normal.woff?91e2d8503d40ed436968c6536323be91) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-latin-700-normal.woff2?adfd120897fcd366e78e43a700ca8bfc) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-700-normal.woff?91e2d8503d40ed436968c6536323be91) format('woff');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -188,7 +188,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 800;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-ext-800-normal.woff2?7931b4451e85184334d5e5ad03c2e1b1) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-800-normal.woff?ddbd5c5e63da59bd0cd0d80ce92ddb5d) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-ext-800-normal.woff2?7931b4451e85184334d5e5ad03c2e1b1) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-800-normal.woff?ddbd5c5e63da59bd0cd0d80ce92ddb5d) format('woff');
   unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
 }
 /* nunito-cyrillic-800-normal*/
@@ -197,7 +197,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 800;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-800-normal.woff2?702daf5528266e2302cb814e84fd3b44) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-800-normal.woff?ddbd5c5e63da59bd0cd0d80ce92ddb5d) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-cyrillic-800-normal.woff2?702daf5528266e2302cb814e84fd3b44) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-800-normal.woff?ddbd5c5e63da59bd0cd0d80ce92ddb5d) format('woff');
   unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
 }
 /* nunito-vietnamese-800-normal*/
@@ -206,7 +206,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 800;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-vietnamese-800-normal.woff2?1911355e3ea73b1cce95fe7de940eb72) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-800-normal.woff?ddbd5c5e63da59bd0cd0d80ce92ddb5d) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-vietnamese-800-normal.woff2?1911355e3ea73b1cce95fe7de940eb72) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-800-normal.woff?ddbd5c5e63da59bd0cd0d80ce92ddb5d) format('woff');
   unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
 }
 /* nunito-latin-ext-800-normal*/
@@ -215,7 +215,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 800;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-latin-ext-800-normal.woff2?612cd00048b57f272c0046c7349e1c1b) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-800-normal.woff?ddbd5c5e63da59bd0cd0d80ce92ddb5d) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-latin-ext-800-normal.woff2?612cd00048b57f272c0046c7349e1c1b) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-800-normal.woff?ddbd5c5e63da59bd0cd0d80ce92ddb5d) format('woff');
   unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
 }
 /* nunito-latin-800-normal*/
@@ -224,7 +224,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 800;
-  src: url(/fonts/vendor/@fontsource/nunito/files/nunito-latin-800-normal.woff2?de4064435bf0f21e81104a7f39c75527) format('woff2'), url(/fonts/vendor/@fontsource/nunito/files/nunito-all-800-normal.woff?ddbd5c5e63da59bd0cd0d80ce92ddb5d) format('woff');
+  src: url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-latin-800-normal.woff2?de4064435bf0f21e81104a7f39c75527) format('woff2'), url(/assets/fonts/vendor/@fontsource/nunito/files/nunito-all-800-normal.woff?ddbd5c5e63da59bd0cd0d80ce92ddb5d) format('woff');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -11181,7 +11181,7 @@ textarea.form-control-lg {
 @font-face {
   font-display: block;
   font-family: "bootstrap-icons";
-  src: url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff2?b2e5aab643c6f0fd2da69dc383322a8f) format("woff2"), url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?6959d0d983ee318f88804e4078c0da55) format("woff");
+  src: url(/assets/fonts/vendor/bootstrap-icons/bootstrap-icons.woff2?b2e5aab643c6f0fd2da69dc383322a8f) format("woff2"), url(/assets/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?6959d0d983ee318f88804e4078c0da55) format("woff");
 }
 .bi::before,
 [class^=bi-]::before,

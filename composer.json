@@ -19,6 +19,9 @@
     "autoload": {
         "exclude-from-classmap": [
             "**/Database/Migrations/**"
+        ],
+        "files": [
+            "app/helpers.php"
         ]
     },
     "autoload-dev": {
