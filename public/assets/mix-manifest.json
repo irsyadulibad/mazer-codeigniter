@@ -2,7 +2,9 @@
     "/js/app.js": "/js/app.js",
     "/js/bootstrap.js": "/js/bootstrap.js",
     "/js/initTheme.js": "/js/initTheme.js",
+    "/js/pages/dashboard.js": "/js/pages/dashboard.js",
     "/css/app.css": "/css/app.css",
+    "/css/iconly.css": "/css/iconly.css",
     "/css/pages/auth.css": "/css/pages/auth.css",
     "/css/app-dark.css": "/css/app-dark.css",
     "/css/bootstrap.css": "/css/bootstrap.css"

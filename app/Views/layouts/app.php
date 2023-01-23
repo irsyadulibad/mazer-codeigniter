@@ -37,5 +37,6 @@
         </div>
     </div>
     <?= $this->include('layouts/scripts') ?>
+    <?= $this->renderSection('script') ?>
 </body>
 </html>
