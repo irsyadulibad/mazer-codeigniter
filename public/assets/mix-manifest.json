@@ -1,5 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
+    "/js/bootstrap.js": "/js/bootstrap.js",
+    "/js/initTheme.js": "/js/initTheme.js",
     "/css/app.css": "/css/app.css",
     "/css/pages/auth.css": "/css/pages/auth.css",
     "/css/app-dark.css": "/css/app-dark.css",

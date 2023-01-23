@@ -24,6 +24,7 @@
   "homepage": "https://github.com/irsyadulibad/mazer-codeigniter#readme",
   "devDependencies": {
     "@fontsource/nunito": "^4.5.12",
+    "@popperjs/core": "^2.11.6",
     "bootstrap": "5.2.3",
     "bootstrap-icons": "^1.10.3",
     "feather-icons": "^4.29.0",

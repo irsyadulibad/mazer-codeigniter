@@ -12,6 +12,7 @@
     <?= $this->renderSection('style') ?>
 </head>
 <body>
+    <script src="<?= asset('js/initTheme.js') ?>"></script>
     <div id="app">
         <div id="sidebar" class="active">
             <?= $this->include('layouts/sidebar') ?>
