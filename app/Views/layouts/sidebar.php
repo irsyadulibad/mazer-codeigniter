@@ -2,7 +2,7 @@
     <div class="sidebar-header position-relative">
         <div class="d-flex justify-content-between align-items-center">
             <div class="logo">
-                <a href="index.html"><img src="assets/images/logo/logo.svg" alt="Logo" srcset=""></a>
+                <a href="index.html"><img src="<?= base_url('images/logo/logo.svg') ?>" alt="Logo" srcset=""></a>
             </div>
             <div class="theme-toggle d-flex gap-2  align-items-center mt-2">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
@@ -38,23 +38,30 @@
         </div>
     </div>
     <div class="sidebar-menu">
-        <ul class="menu">{% for sidebarItem in sidebarItems %}{% if sidebarItem.isTitle %}
-            <li class="sidebar-title">{{sidebarItem.name}}</li>
-            {% else %}
-            <li
-                class="sidebar-item {{ 'active' if (sidebarItem.url == filename or filename|startsWith(sidebarItem.key)) }} {{'has-sub' if sidebarItem.submenu.length > 0 }}">
-                <a href="{{sidebarItem.url if sidebarItem.url!==undefined else '#'}}" class='sidebar-link'>
-                    <i class="bi bi-{{ sidebarItem.icon }}"></i>
-                    <span>{{sidebarItem.name}}</span>
-                </a>{% if sidebarItem.submenu.length > 0 %}
-                <ul class="submenu {{ 'active' if (sub.url == filename or filename|startsWith(sidebarItem.key)) }}">{%
-                    for sub in sidebarItem.submenu %}
-                    <li class="submenu-item {{ 'active' if sub.url == filename }}">
-                        <a href="{{ sub.url }}">{{ sub.name }}</a>
-                    </li>{% endfor %}
-                </ul>{% endif %}
-            </li>
-            {% endif %}{% endfor %}
+        <ul class="menu">
+            <?php foreach(sidebar()->items() as $item): ?>
+                <?php if($item->isTitle): ?>
+                    <li class="sidebar-title"><?= $item->name ?></li>
+                <?php else: ?>
+                    <li class="sidebar-item <?= has_sub($item->subItems) ?> <?= active($item->url) ?>">
+                        <a href="<?= $item->url ?>" class='sidebar-link'>
+                            <i class="bi bi-<?= $item->icon ?>"></i>
+                            <span><?= $item->name ?></span>
+                        </a>
+
+                        <?php if(!empty($item->subItems)): ?>
+                        <ul class="submenu <?= active($item->url) ?>">
+                            <?php foreach($item->subItems as $sub): ?>
+                            <li class="submenu-item <?= active($sub->url) ?>">
+                                <a href="<?= $sub->url ?>"><?= $sub->name ?></a>
+                            </li>
+                            <?php endforeach ?>
+                        </ul>
+                        <?php endif ?>
+
+                    </li>
+                <?php endif ?>
+            <?php endforeach ?>
         </ul>
     </div>
 </div>
