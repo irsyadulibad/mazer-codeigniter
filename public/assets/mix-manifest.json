@@ -3,6 +3,7 @@
     "/js/bootstrap.js": "/js/bootstrap.js",
     "/js/initTheme.js": "/js/initTheme.js",
     "/js/pages/dashboard.js": "/js/pages/dashboard.js",
+    "/js/pages/component-toasts.js": "/js/pages/component-toasts.js",
     "/css/app.css": "/css/app.css",
     "/css/iconly.css": "/css/iconly.css",
     "/css/pages/auth.css": "/css/pages/auth.css",
