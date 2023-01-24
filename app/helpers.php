@@ -21,7 +21,7 @@ if(!function_exists('has_sub')) {
 if(!function_exists('active')) {
     function active(string $param, string $value = 'active') {
         $url = \CodeIgniter\Config\Services::uri()->getPath();
-        $param = str_replace('/', '\/', trim($param));
+        $param = str_replace('/', '\/', trim(trim($param, '/')));
 
         return preg_match("/$param/", $url) ? $value : '';
     }
