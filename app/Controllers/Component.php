@@ -38,4 +38,23 @@ class Component extends BaseController
             throw new PageNotFoundException("Not Found");
         }
     }
+
+    public function extra($view)
+    {
+        $subtitles = [
+            "avatar" => "A container to show avatar images or initials.",
+            "sweet-alert" => "A beautiful replacement for javascript alerts.",
+            "toastify" => "Better notification messages.",
+            "rating" => "Rating with rater-js - a pure javascript rating library.",
+            "divider" => "Visually separate your content.",
+        ];
+
+        try {
+            return view("pages/components/extra/{$view}", [
+                'subtitle' => $subtitles[$view]
+            ]);
+        } catch (Exception $e) {
+            throw new PageNotFoundException("Not Found");
+        }
+    }
 }

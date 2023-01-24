@@ -30,7 +30,7 @@ class SidebarService
                 ->addSubItem('Toasts')
                 ->addSubItem('Tooltip'),
 
-            (new SidebarItem(name: 'Extra Components', icon: 'collection-fill', group: '/components/extra'))
+            (new SidebarItem(name: 'Extra Components', icon: 'collection-fill', group: '/extracomp'))
                 ->addSubItem('Avatar')
                 ->addSubItem('Sweet Alert')
                 ->addSubItem('Toastify')
@@ -133,7 +133,7 @@ class SidebarItem
         public string|null $icon = null,
         public bool $isTitle = false,
     ) {
-        if($group) {
+        if ($group) {
             $this->url = $group;
             return;
         }
